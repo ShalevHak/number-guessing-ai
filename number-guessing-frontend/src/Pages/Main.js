@@ -1,14 +1,9 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Navbar from '../Componants/Navbar'
+import '../CSS/main.css'
 function Main() {
   return (
     <div>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
       <Navbar/>
     </div>
   )
