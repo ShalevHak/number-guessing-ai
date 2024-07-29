@@ -13,7 +13,7 @@ const ImageUploader = () => {
   return (
     <div {...getRootProps()} className='image-drop-div'>
       <input {...getInputProps()} />
-      <p>Drag 'n' drop an image of a number, or click to select files</p>
+      <p>Drag 'n' drop an image of a number, or click to select the file</p>
     </div>
   );
 };

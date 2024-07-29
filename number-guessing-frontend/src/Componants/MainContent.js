@@ -1,10 +1,10 @@
 import React from 'react'
-import ImageUploader from './ImageUploader'
+import DrawingCanvas from './DrawingCanvas'
 
 function MainContent() {
   return (
     <div className='main-content'>
-      <ImageUploader/>
+      <DrawingCanvas/>
     </div>
   )
 }
