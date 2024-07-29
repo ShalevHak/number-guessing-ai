@@ -47,7 +47,12 @@ const DrawingCanvas = () => {
   const handleSave = () => {
     const canvas = canvasRef.current;
     const dataURL = canvas.toDataURL('image/png');
-    console.log(dataURL);
+    const link = document.createElement('a');
+    link.href = dataURL;
+    link.download = 'drawing.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const handleClear = () => {
